@@ -17,15 +17,15 @@
 3. 安裝所需的Python套件：`python -m pip install -r requirements.txt`
 4. 下載RWKV語言模型檔案，放置在想要的路徑後自行更改路徑。</br>
    (模型可以在 https://cdn.jsdelivr.net/gh/josstorer/RWKV-Runner@master/manifest.json 尋找你需要的)
-6. 在程式碼中填入Discord Bot Token
+5. 在程式碼中填入Discord Bot Token
 
 ## 使用
 
-1.執行程式：`python app.py`
-2.機器人會自動加入您設定的Discord伺服器與頻道
-3.在Discord頻道中，輸入「樂樂」開頭的訊息來與機器人對話
-4.輸入「樂樂 change mode」來切換樂樂模式與AI模式
-5.輸入「樂樂 clear」來清除機器人的上下文記憶
+1. 執行程式：`python app.py`
+2. 機器人會自動加入您設定的Discord伺服器與頻道
+3. 在Discord頻道中，輸入「樂樂」開頭的訊息來與機器人對話
+4. 輸入「樂樂 change mode」來切換樂樂模式與AI模式
+5. 輸入「樂樂 clear」來清除機器人的上下文記憶
 
 ## 注意事項
 - 本程式僅供研究和娛樂用途，請勿將機器人輸出視為事實或建議
