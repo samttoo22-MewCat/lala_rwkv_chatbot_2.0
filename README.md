@@ -36,4 +36,7 @@
 ## 備註
 - rwkv的pip套件只能選擇單一的字元讓語言模型停下，所以為了避免樂樂自我重，我強烈建議於修改rwkv套件中的generate方法
 - 如果可以，請在generate方法中的 `for i in range(token_count)`迴圈中的最底部新增<br>
-``
+```python
+if '乐乐' in out_str or '樂樂' in out_str:
+    break
+```
