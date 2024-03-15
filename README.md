@@ -17,7 +17,9 @@
 3. 安裝所需的Python套件：`python -m pip install -r requirements.txt`
 4. 下載RWKV語言模型檔案，放置在想要的路徑後自行更改路徑。</br>
    (模型可以在 https://cdn.jsdelivr.net/gh/josstorer/RWKV-Runner@master/manifest.json 尋找你需要的)
-5. 在程式碼中填入Discord Bot Token
+5. 創建好discord Bot後，將它加入你想加入的伺服器(網路上有很多教學)
+6. 在程式碼中填入你想要啟用的頻道ID，此設定是為了避免把伺服器其他人吵死。
+7. 在程式碼中填入Discord Bot Token
 
 ## 使用
 
