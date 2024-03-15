@@ -16,14 +16,14 @@ intents.message_content = True
 intents.guilds = True
 client = discord.Client(intents=intents)
 start = 0
-#embedding_function = SentenceTransformerEmbeddings(model_name="shibing624/text2vec-bge-large-chinese")
 
-model = RWKV(model='/mnt/c/Users/user/Desktop/coding/python/rwkv models/RWKV-5-World-7B-v2-20240128-ctx4096.pth', strategy='cuda fp16i8 -> cuda fp16 *1')
+#下載完模型後 請依你的需求更改模型路徑
+model = RWKV(model='./RWKV-5-World-7B-v2-20240128-ctx4096.pth', strategy='cuda fp16i8 -> cuda fp16 *1')
 pipeline = PIPELINE(model, "rwkv_vocab_v20230424")
 print('語言模型載入完成。')
 
 kw_model = KeyBERT(model='shibing624/text2vec-base-chinese')
-jieba.load_userdict('/mnt/c/Users/user/Desktop/coding/python/wiki2jieba_user_dict.txt')
+jieba.load_userdict('./wiki2jieba_user_dict.txt')
 print('關鍵字模型與自定義辭典載入完成。')
 #kw_model = KeyBERT(model='sentence-transformers/all-MiniLM-L6-v2')
 #kw_model = KeyBERT(model='shibing624/text2vec-bge-large-chinese') 
