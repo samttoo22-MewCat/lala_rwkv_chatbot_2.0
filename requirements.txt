@@ -1,0 +1,6 @@
+rwkv==0.8.25
+rwkvstic==2.1.2
+jieba @ git+https://github.com/APCLab/jieba-tw.git
+discord==2.3.2
+keybert==0.8.4
+scikit-learn==1.4.1.post1
