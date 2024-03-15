@@ -15,7 +15,7 @@
 1. `git clone https://github.com/samttoo22-MewCat/lala_rwkv_chatbot_2.0.git`
 2. `cd lala_rwkv_chatbot_2.0`
 3. 安裝所需的Python套件：`python -m pip install -r requirements.txt`
-4. 下載RWKV語言模型檔案，放置在指定路徑
+4. 下載RWKV語言模型檔案，放置在想要的路徑後自行更改路徑。(模型可以在 https://cdn.jsdelivr.net/gh/josstorer/RWKV-Runner@master/manifest.json 尋找你需要的)
 5. 在程式碼中填入Discord Bot Token
 
 ## 使用
