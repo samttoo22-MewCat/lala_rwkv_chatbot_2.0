@@ -5,10 +5,6 @@ os.environ["RWKV_CUDA_ON"] = '0' # '1' to compile CUDA kernel (10x faster), requ
 import asyncio, concurrent.futures
 from rwkv.model import RWKV
 from rwkv.utils import PIPELINE, PIPELINE_ARGS
-from langchain_community.vectorstores.chroma import Chroma
-from langchain_community.embeddings.sentence_transformer import (
-    SentenceTransformerEmbeddings,
-)
 from wiki_searcher import WikiSearcher
 import discord
 import jieba
