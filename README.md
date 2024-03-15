@@ -23,7 +23,7 @@
 
 ## 使用
 
-1. 執行程式：`python app.py`
+1. 執行程式：`python AI_app.py`
 2. 機器人會自動加入您設定的Discord伺服器與頻道
 3. 在Discord頻道中，輸入「樂樂」開頭的訊息來與機器人對話
 4. 輸入「樂樂 change mode」來切換樂樂模式與AI模式
