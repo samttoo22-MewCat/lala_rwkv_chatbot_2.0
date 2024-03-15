@@ -155,6 +155,7 @@ User: {message.content.replace('樂樂 ', '')}
                     print(init_ctx)
                     output = pipeline.generate(init_ctx, token_count=3500, args=args, callback=my_print)
                     output = output.replace('User', '').replace('樂樂 ', '').replace('Assistant: ', '').replace('Human', '').replace('用戶', '').replace('乐乐 ', '')
+                    output = output.replace('樂樂', '')
                     #init_ctx = ctx + output #前後文
                     if(len(output) > 1800):
                         output = split_string(output, 1800)
