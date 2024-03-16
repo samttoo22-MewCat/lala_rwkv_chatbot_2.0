@@ -36,6 +36,6 @@
 - rwkv 的 python 套件只能選擇單一的字元讓語言模型停下，所以為了避免樂樂自我重複的情況發生，我強烈建議於修改rwkv.utils中的generate方法
 - 如果可以，請在 generate 方法中的 `for i in range(token_count)`迴圈中的最底部新增<br>
 ```python
-if '乐乐' in out_str or '樂樂' in out_str or '用戶' in out_str:
+if '乐乐' in out_str or '用戶' in out_str:
     break
 ```
