@@ -11,7 +11,7 @@
 - 清除記憶：可以清除機器人的上下文記憶
 
 ## 安裝
-
+(建議使用python 3.11)<br>
 1. `git clone https://github.com/samttoo22-MewCat/lala_rwkv_chatbot_2.0.git`
 2. `cd lala_rwkv_chatbot_2.0`
 3. 安裝所需的 python 套件：`python -m pip install -r requirements.txt`
@@ -23,7 +23,8 @@
 
 ## 使用
 
-1. 執行程式：`python AI_app.py`
+1. 執行程式：`python rwkv_app.py`<br>
+(api_app 是給 openAI API 使用，可自行評估使用。)<br>
 2. 在 Discord 頻道中，輸入「樂樂」開頭的訊息來與機器人對話
 3. 輸入「樂樂 change mode」來切換樂樂模式與AI模式
 4. 輸入「樂樂 clear」來清除機器人的上下文記憶
