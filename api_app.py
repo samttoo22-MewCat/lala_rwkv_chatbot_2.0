@@ -175,7 +175,7 @@ async def on_message(message):
                     try:
                         search_results = await loop.run_in_executor(pool, wiki_searcher.get_search_results, keywords, 2)
                     except:
-                        search_results = ''
+                        pass
                     
                     
                     init_ctx = init_ctx.replace('message', message_str).replace('search_results', search_results)
@@ -217,7 +217,7 @@ async def on_message(message):
                     try:
                         search_results = await loop.run_in_executor(pool, wiki_searcher.get_search_results, keywords, 2)
                     except:
-                        search_results = ''
+                        pass
                     
                     init_ctx = init_ctx.replace('message', message_str).replace('search_results', search_results)
                     print(init_ctx)
